@@ -1,0 +1,118 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-style: normal;
+	background: rgb(230, 230, 230, 1.0);
+}
+
+.bg-image {
+	background-image: url("../img/Banner.png");
+	background-size: 1020px;
+}
+
+img {
+	user-select: none;
+}
+
+img.rounded {
+	max-width: 320px !important;
+}
+
+img.logo {
+	max-width: 275px !important;
+}
+
+.intro-title {
+	color: rgba(245, 245, 245, 0.95);
+}
+.intro-subtitle {
+	color: rgba(245, 245, 245, 0.80);
+	text-align: justify;
+}
+
+.text-lighten {
+	color: rgba(245, 245, 245, 0.90);
+	background: rgb(30, 30, 30, 1.0);
+}
+
+.text-lightee {
+	color: rgba(245, 245, 245, 0.90);
+}
+
+.text-lighter {
+	color: rgba(245, 245, 245, 0.50);
+	text-align: justify;
+}
+
+.accordion-item, .accordion-header, .accordion-body, .accordion-button {
+	color: rgba(245, 245, 245, 0.85);
+	background: rgb(30, 30, 30);
+}
+
+ .accordion-body {
+	color: rgba(245, 245, 245, 0.70);
+}
+
+.accordion-button:not(.cllapsed) {
+	color: inherit;
+	background: inherit;
+	border-color: inherit;
+}
+
+.accordion-button:focus {
+	box-shadow: none;
+}
+
+.link-discord, .link-instagram, .link-twitter {
+	background-image: linear-gradient(45deg, purple, orange) !important;
+	font-size: 14.6px;
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	border-radius: 4px;
+	color: white;
+	transition: 0.5s all;
+}
+
+.link-discord:hover, .link-instagram:hover, .link-twitter:hover {
+	background-image: linear-gradient(-45deg, purple, orange) !important;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: dodgerblue;
+}
+
+a:hover {
+	color: red;
+	transition: 0.5s;
+}
+
+.buttons .btn {
+	background: linear-gradient(45deg, purple, orange) !important;
+	border-radius: 8px !important;
+	border: none;
+}
+
+.btn-gradient, .navbar-brand {
+	background-image: linear-gradient(45deg, purple, orange) !important;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	border: none;
+	font-style: bold;
+	font-weight: 600;
+}
+
+.buttons .btn:hover {
+	transform: translateX(-2px) translateY(-2px);
+	transition: 0.5s all
+}
+
+.buttons .btn:focus {
+	box-shadow: none;
+}
